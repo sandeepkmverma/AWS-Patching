@@ -1,10 +1,10 @@
 # <center>Security Patching of EC2 Instances</center> 
 
-#### Aim:
+### Aim:
 
 The Aim is to do the Security Patching on EC2 Instances. The solution uses AWS SSM Patch Manager and AWS SSM Automation. This solution has both manual and automated ways to do the patching on EC2 Instances.
 
-#### Solution Architecture:
+### Solution Architecture:
 
 > Below is the high-level overview for the solution
 
@@ -13,7 +13,7 @@ The Aim is to do the Security Patching on EC2 Instances. The solution uses AWS S
 ![Patching Architecture](/images/patching-architecture.png)
 
 
-#### Solution Approach:
+### Solution Approach:
 
 The approach for the Solution would be:
 
@@ -22,7 +22,7 @@ The approach for the Solution would be:
 3. The admin patches the EC2 Instance using the Patch Manager in SSM. 
 
 
-#### Prerequisites:
+### Prerequisites:
 
 1. SSM should be installed and running on the instances which need to be patched.
 
@@ -34,6 +34,7 @@ The approach for the Solution would be:
 [Click Here for AWS Custom Patch Baseline Documentation](https://docs.aws.amazon.com/systems-manager/latest/userguide/create-baseline-console-linux.html)
 <br />
 
+### Steps to setup the solution:
 
 #### Step-1: Go to AWS System Manager: 
 ![Patching Architecture](/images/ssm-1.png)
