@@ -2,7 +2,7 @@
 
 ### Aim:
 
-The Aim is to do the Security Patching on EC2 Instances. The solution uses AWS SSM Patch Manager and AWS SSM Automation. This solution has both manual and automated ways to do the patching on EC2 Instances.
+The Aim is to do the Security Patching on EC2 Instances. The solution uses AWS SSM Patch Manager and AWS SSM Automation.
 
 ### Solution Architecture:
 
