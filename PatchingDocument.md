@@ -27,8 +27,8 @@ The approach for the Solution would be:
 
 
 ##### Step-1: Go to AWS System Manager:
-<br />
-![Patching Architecture](/images/ssm-1.png)<br />
+<br /><br />
+![Patching Architecture](/images/ssm-1.png)
 
 ##### Step-2: Scroll down to Patch Manager and click on Configure Patching:
 
