@@ -26,7 +26,8 @@ The approach for the Solution would be:
 
 1. SSM should be installed and running on the instances which need to be patched.
 
-* [Click Here for AWS SSM Installation Documentation](https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-manual-agent-install.html)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[Click Here for AWS SSM Installation Documentation](https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-manual-agent-install.html)
 <br />
 
 2. Custom Patch Baseline should be created where we define to use Security Patches only
