@@ -25,7 +25,14 @@ The approach for the Solution would be:
 #### Prerequisites:
 
 1. SSM should be installed and running on the instances which need to be patched.
+<br />
+[Click Here for AWS SSM Installation Documentation](https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-manual-agent-install.html)
+<br />
+
 2. Custom Patch Baseline should be created where we define to use Security Patches only
+<br />
+[Click Here for AWS Custom Patch Baseline Documentation](https://docs.aws.amazon.com/systems-manager/latest/userguide/create-baseline-console-linux.html)
+<br />
 
 
 #### Step-1: Go to AWS System Manager: 
@@ -57,8 +64,9 @@ The approach for the Solution would be:
 
 #### FAQ: 
 
-1. What email should I send for initiation of Patch Management
-2. What Steps we can mention in the email of Patch Management
+1. How to install the SSM Agent?
+2. How to create a custom patch baseline?
+
 
 
 
