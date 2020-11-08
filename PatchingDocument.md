@@ -26,8 +26,7 @@ The approach for the Solution would be:
 2. Custom Patch Baseline should be created where we define to use Security Patches only
 
 
-##### Step-1: Go to AWS System Manager:
-<br />
+##### Step-1: Go to AWS System Manager: 
 ![Patching Architecture](/images/ssm-1.png)
 
 ##### Step-2: Scroll down to Patch Manager and click on Configure Patching:
