@@ -38,6 +38,8 @@ The approach for the Solution would be:
 <br />
 
 ## Steps to setup the solution:
+***
+
 
 ##### Step-1: Go to AWS System Manager: 
 ![Patching Architecture](/images/ssm-1.png)
@@ -67,6 +69,7 @@ The approach for the Solution would be:
 <br />
 
 ## Shell Script to setup the Automated Solution:
+***
 
 
 
