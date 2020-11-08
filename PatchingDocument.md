@@ -8,7 +8,7 @@ The Aim is to do the Security Patching on EC2 Instances. The solution uses AWS S
 
 > Below is the high-level overview for the solution
 
-![I am alt text for an image](Patch Management - Architectural Diagram.png "Title")
+![Patching Architecture](/images/patching-architecture.png)
 
 
 #### Solution Approach:
