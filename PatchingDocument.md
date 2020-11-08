@@ -32,6 +32,8 @@ The approach for the Solution would be:
 2. Custom Patch Baseline should be created where we define to use Security Patches only
 
 [Click Here for AWS Custom Patch Baseline Documentation](https://docs.aws.amazon.com/systems-manager/latest/userguide/create-baseline-console-linux.html)
+
+<br />
 <br />
 
 ### Steps to setup the solution:
