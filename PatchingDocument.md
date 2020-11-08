@@ -32,15 +32,16 @@ The approach for the Solution would be:
 ![Patching Architecture](/images/ssm-1.png)
 
 ##### Step-2: Scroll down to Patch Manager and click on Configure Patching:
-
+<br />
 ![Patching Architecture](/images/ssm-2.png)
 
 ##### Step-3: Enter the Instance Tags that need to be patched and click on add:
+<br />
 
 ![Patching Architecture](/images/ssm-3.png)
 
 ##### Step-4: Scroll down and Select “skip scheduling and patch instances now”, “Scan and install” and Configuring patching:
-
+<br />
 
 ![Patching Architecture](/images/ssm-4.png)
 
