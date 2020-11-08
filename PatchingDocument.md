@@ -28,27 +28,31 @@ The approach for the Solution would be:
 2. Custom Patch Baseline should be created where we define to use Security Patches only
 
 
-##### Step-1: Go to AWS System Manager: 
+#### Step-1: Go to AWS System Manager: 
 ![Patching Architecture](/images/ssm-1.png)
 <br />
+<br />
 
-##### Step-2: Scroll down to Patch Manager and click on Configure Patching:
+#### Step-2: Scroll down to Patch Manager and click on Configure Patching:
 
 <br />
 
 ![Patching Architecture](/images/ssm-2.png)
 <br />
+<br />
 
-##### Step-3: Enter the Instance Tags that need to be patched and click on add:
+#### Step-3: Enter the Instance Tags that need to be patched and click on add:
 <br />
 
 ![Patching Architecture](/images/ssm-3.png)
 <br />
+<br />
 
-##### Step-4: Scroll down and Select “skip scheduling and patch instances now”, “Scan and install” and Configuring patching:
+#### Step-4: Scroll down and Select “skip scheduling and patch instances now”, “Scan and install” and Configuring patching:
 <br />
 
 ![Patching Architecture](/images/ssm-4.png)
+<br />
 <br />
 
 #### FAQ: 
