@@ -17,9 +17,9 @@ The Aim is to do the Security Patching on EC2 Instances. The solution uses AWS S
 
 The approach for the Solution would be:
 
-1. 
-2.
-3.
+1. The admin installs the SSM agent on the EC2 Instance.
+2. The admin creates a custom baseline where only Security Patches would get selected.
+3. The admin patches the EC2 Instance using the Patch Manager in SSM. 
 
 
 #### Prerequisites:
