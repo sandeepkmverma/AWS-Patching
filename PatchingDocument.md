@@ -36,7 +36,7 @@ The approach for the Solution would be:
 <br />
 <br />
 
-### Steps to setup the solution:
+## Steps to setup the solution:
 
 ##### Step-1: Go to AWS System Manager: 
 ![Patching Architecture](/images/ssm-1.png)
@@ -69,44 +69,6 @@ The approach for the Solution would be:
 
 1. How to install the SSM Agent?
 2. How to create a custom patch baseline?
-
-
-
-
-
-
-
-
-
-
-```
-aws create 
-
-```
-
-> Here you can create some example
-
-
-* Bullet Points
-* Sub Bullet points
-
-
-- Bullet -1
-
-1. Numbered List
-2. Number 2
-
-
-[Link to Github](https://github.com)
-
-![I am alt text for an image](Patch Management - Architectural Diagram.png "Title")
-
-
-A horizontal rule follows.
-***
-
-
-
 
 
 
