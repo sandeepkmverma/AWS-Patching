@@ -173,8 +173,15 @@ The approach for the Solution would be:
 
 ### FAQ: 
 
-1. How to install the SSM Agent?
-2. How to create a custom patch baseline?
+1. Why Patching is needed?
+2. What types of Patches we will intall into the server?
+3. Is Patching mandatory for all the MSP Customers?
+4. How to initiate Patcing for any customer?
+5. Is Patchig Calendar should be maintained?
+6. Is Downtime there in the Patching process?
+7. How is the Approval Flow of Patching?
+8. Are Pre and Post Patching Validation necessary?
+9. Does Patching invlolve costing?
 
 
 
