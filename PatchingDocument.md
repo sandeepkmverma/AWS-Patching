@@ -223,7 +223,13 @@ The approach for the Solution would be:
 
 ### FAQ: 
 
+1. What is Patch Management:
+Patch Management is the process by which businesses/IT procure, test, and install patches (changes in code or data) intended to upgrade, optimize, or secure existing software, computers, servers and technology systems to maintain operational efficacy or mitigate security vulnerabilities.
+
 1. Why Patching is needed?
+
+
+
 2. What types of Patches we will intall into the server?
 3. Is Patching mandatory for all the MSP Customers?
 4. How to initiate Patcing for any customer?
