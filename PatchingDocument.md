@@ -77,7 +77,52 @@ The approach for the Solution would be:
 2. IamInstanceProfileName
 3. IAM Role
 
+## How to create IAM Instance Profile for Golden Image process:
+1. Three policies are required to create IAMInstanceProfile
+a. AmazonEC2RoleforSSM
+b. AmazonSSMAutomationRole
+c. Inline Policy "SSMAutomationServiceRolePolicy"
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "iam:PassRole",
+            "Resource": "arn:aws:iam::989033863264:role/SSMRoleForAutomation"
+        }
+    ]
+}
+
+``` 
+
+2. In Trust Relationship, below access should be granted.
+
+```
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": [
+          "ssm.amazonaws.com",
+          "ec2.amazonaws.com"
+        ]
+      },
+      "Action": "sts:AssumeRole"
+    }
+  ]
+}
+```
+
+
 <br />
+
+
 
 ## Steps to create Golden AMI:
 ***
