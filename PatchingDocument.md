@@ -84,7 +84,7 @@ The approach for the Solution would be:
 
 
 ##### Step-1: Go to AWS System Manager: 
-![Patching Architecture](/images/ssm-1.png)
+![Patching Architecture](/images/ssm-automation-1.png)
 <br />
 <br />
 
@@ -92,79 +92,84 @@ The approach for the Solution would be:
 
 <br />
 
-![Patching Architecture](/images/ssm-2.png)
+![Patching Architecture](/images/ssm-automation-2.png)
 <br />
 <br />
 
-##### Step-3: Scroll down to Automation
+##### Step-3: Click on Execute automation:
 
 <br />
 
-![Patching Architecture](/images/ssm-2.png)
+![Patching Architecture](/images/ssm-automation-3.png)
 <br />
 <br />
 
-##### Step-4: Scroll down to Automation
+##### Step-4: In Automation document, seach for “Document name prefix : Equals : AWS-Update”
 
 <br />
 
-![Patching Architecture](/images/ssm-2.png)
+![Patching Architecture](/images/ssm-automation-4.png)
 <br />
 <br />
 
-##### Step-5: Scroll down to Automation
+##### Step-5: Click on AWS-UpdateLinuxAmi
 
 <br />
 
-![Patching Architecture](/images/ssm-2.png)
+![Patching Architecture](/images/ssm-automation-5.png)
 <br />
 <br />
 
-##### Step-6: Scroll down to Automation
+##### Step-6: Click on Execute automation:
 
 <br />
 
-![Patching Architecture](/images/ssm-2.png)
+![Patching Architecture](/images/ssm-automation-6.png)
 <br />
 <br />
 
-##### Step-7: Scroll down to Automation
+##### Step-7: In Input parameters, fill SourceAmiId, IamInstanceProfileName and AutomationAssumeRole and click on Execute
 
 <br />
 
-![Patching Architecture](/images/ssm-2.png)
+![Patching Architecture](/images/ssm-automation-7.png)
 <br />
 <br />
 
-##### Step-8: Scroll down to Automation
+##### Step-8: It will trigger all the Execution Steps and take a few minutes to get completed.
 
 <br />
 
-![Patching Architecture](/images/ssm-2.png)
+![Patching Architecture](/images/ssm-automation-8.png)
 <br />
 <br />
 
-##### Step-9: Scroll down to Automation
+## Verification of the Golden AMI:
 
-<br />
-
-![Patching Architecture](/images/ssm-2.png)
 <br />
 <br />
 
-##### Step-10: Scroll down to Automation
+##### Step-9: Scroll down and click on createImage section
 
 <br />
 
-![Patching Architecture](/images/ssm-2.png)
+![Patching Architecture](/images/ssm-automation-9.png)
 <br />
 <br />
 
-##### Step-11: Scroll down to Automation
+##### Step-10: Scroll down to the Ouputs Section and copy the AMI ID
 
 <br />
 
-![Patching Architecture](/images/ssm-2.png)
+![Patching Architecture](/images/ssm-automation-10.png)
+<br />
+<br />
+
+##### Step-11: Search the AMI Id in the EC2-AMI section
+
+<br />
+
+![Patching Architecture](/images/ssm-automation-11.png)
 <br />
 <br />
 
