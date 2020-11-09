@@ -229,13 +229,13 @@ Patch Management is the process by which businesses/IT procure, test, and instal
 2. **Why Patching is needed?**<br>
 Prompt patching is vital for cybersecurity. When a new patch is released, attackers use software that looks at the underlying vulnerability in the application being patched. This is something that hackers perform quickly, allowing them to release malware to exploit the vulnerability within hours of a patch release. Security patches prevent hackers and cybercriminals from exploiting vulnerabilities that could halt operations.
 
-3. **What types of Patches we will be intalling into the server?**<br>
+3. **What types of Patches we will be installing into the server?**<br>
 We will be installing only Security Patches as the other Patches installation might disrupt the application flow.
 
 4. **Is Patching mandatory for all the MSP Customers?**<br>
 Yes, but if the customer doesn't approve of this, then we can skip this process for that particular customer.
 
-5. **How to initiate Patcing for any customer?**<br>
+5. **How to initiate Patcing process for any customer?**<br>
 Patching initiation process includes 3 action/discussion points:
 - Discussion with DEV Team.
 - Discussion with Application Team.
@@ -255,7 +255,10 @@ No, SSM Patch Manager and Automation are free AWS Services.
 
 
 
-
+## Author of the Document:<br>
+**Name:** Sandeep Kumar Verma<br>
+**Email ID:** sandeep.verma1@tothenew.com<br>
+**Mob No.:** +91-9599294915<br>
 
 
 
