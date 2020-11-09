@@ -68,9 +68,6 @@ The approach for the Solution would be:
 <br />
 <br />
 
-## Shell Script to setup the Automated Solution:
-***
-
 
 
 ### FAQ: 
