@@ -226,18 +226,32 @@ The approach for the Solution would be:
 1. **What is Patch Management:**<br>
 Patch Management is the process by which businesses/IT procure, test, and install patches (changes in code or data) intended to upgrade, optimize, or secure existing software, computers, servers and technology systems to maintain operational efficacy or mitigate security vulnerabilities.
 
-1. Why Patching is needed?
+2. **Why Patching is needed?**<br>
+Prompt patching is vital for cybersecurity. When a new patch is released, attackers use software that looks at the underlying vulnerability in the application being patched. This is something that hackers perform quickly, allowing them to release malware to exploit the vulnerability within hours of a patch release. Security patches prevent hackers and cybercriminals from exploiting vulnerabilities that could halt operations.
 
+3. **What types of Patches we will be intalling into the server?**<br>
+We will be installing only Security Patches as the other Patches installation might disrupt the application flow.
 
+4. **Is Patching mandatory for all the MSP Customers?**<br>
+Yes, but if the customer doesn't approve of this, then we can skip this process for that particular customer.
 
-2. What types of Patches we will intall into the server?
-3. Is Patching mandatory for all the MSP Customers?
-4. How to initiate Patcing for any customer?
-5. Is Patchig Calendar should be maintained?
-6. Is Downtime there in the Patching process?
-7. How is the Approval Flow of Patching?
-8. Are Pre and Post Patching Validation necessary?
-9. Does Patching invlolve costing?
+5. **How to initiate Patcing for any customer?**<br>
+Patching initiation process includes 3 action/discussion points:
+- Discussion with DEV Team.
+- Discussion with Application Team.
+- Discussion with Customer. 
+
+6. **Is Patchig Calendar should be maintained?**<br>
+Yes, It is good to have Patching Calendar in place.
+
+7. **Is Downtime there in the Patching process?**<br>
+Yes, Patching process requires rebooting the EC2 Instance and it will lead to a downtime.
+
+8. **Are Pre and Post Patching Validation necessary?**<br>
+Yes.
+
+9. **Does Patching invlolve costing?**<br>
+No, SSM Patch Manager and Automation are free AWS Services. 
 
 
 
