@@ -79,9 +79,9 @@ The approach for the Solution would be:
 
 ## How to create IAM Instance Profile for Golden Image process:
 1. Three policies are required to create IAMInstanceProfile
-- AmazonEC2RoleforSSM
-- AmazonSSMAutomationRole
-- Inline Policy "SSMAutomationServiceRolePolicy"
+  - AmazonEC2RoleforSSM
+  - AmazonSSMAutomationRole
+  - Inline Policy "SSMAutomationServiceRolePolicy"
 
 ```
 {
