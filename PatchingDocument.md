@@ -223,7 +223,7 @@ The approach for the Solution would be:
 
 ### FAQ: 
 
-1. What is Patch Management:
+1. **What is Patch Management:**<br>
 Patch Management is the process by which businesses/IT procure, test, and install patches (changes in code or data) intended to upgrade, optimize, or secure existing software, computers, servers and technology systems to maintain operational efficacy or mitigate security vulnerabilities.
 
 1. Why Patching is needed?
