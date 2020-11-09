@@ -68,6 +68,107 @@ The approach for the Solution would be:
 <br />
 <br />
 
+## How to Patch an Auto Scaling Image (Golden Image Creation Process):
+***
+
+### Prerequisites for Creating Golden AMI:
+
+1. The Source AMI ID
+2. IamInstanceProfileName
+3. IAM Role
+
+<br />
+
+## Steps to create Golden AMI:
+***
+
+
+##### Step-1: Go to AWS System Manager: 
+![Patching Architecture](/images/ssm-1.png)
+<br />
+<br />
+
+##### Step-2: Scroll down to Automation
+
+<br />
+
+![Patching Architecture](/images/ssm-2.png)
+<br />
+<br />
+
+##### Step-3: Scroll down to Automation
+
+<br />
+
+![Patching Architecture](/images/ssm-2.png)
+<br />
+<br />
+
+##### Step-4: Scroll down to Automation
+
+<br />
+
+![Patching Architecture](/images/ssm-2.png)
+<br />
+<br />
+
+##### Step-5: Scroll down to Automation
+
+<br />
+
+![Patching Architecture](/images/ssm-2.png)
+<br />
+<br />
+
+##### Step-6: Scroll down to Automation
+
+<br />
+
+![Patching Architecture](/images/ssm-2.png)
+<br />
+<br />
+
+##### Step-7: Scroll down to Automation
+
+<br />
+
+![Patching Architecture](/images/ssm-2.png)
+<br />
+<br />
+
+##### Step-8: Scroll down to Automation
+
+<br />
+
+![Patching Architecture](/images/ssm-2.png)
+<br />
+<br />
+
+##### Step-9: Scroll down to Automation
+
+<br />
+
+![Patching Architecture](/images/ssm-2.png)
+<br />
+<br />
+
+##### Step-10: Scroll down to Automation
+
+<br />
+
+![Patching Architecture](/images/ssm-2.png)
+<br />
+<br />
+
+##### Step-11: Scroll down to Automation
+
+<br />
+
+![Patching Architecture](/images/ssm-2.png)
+<br />
+<br />
+
+
 
 
 ### FAQ: 
